@@ -1,0 +1,6 @@
+Nicolas Rampelotto and Jason Pritchet: 
+
+Corrections to Code: 
+1) For LED(0), add extra case for '0'
+2) Removed duplicate case in led2
+3) Added '0' for others in led1

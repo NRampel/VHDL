@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Sep  2 16:22:24 2025
+# Process ID: 2896
+# Current directory: U:/src/lab2/lab2.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: U:/src/lab2/lab2.runs/synth_1/top.vds
+# Journal file: U:/src/lab2/lab2.runs/synth_1\vivado.jou
+# Running On        :APP-15
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz
+# CPU Frequency     :2295 MHz
+# CPU Physical cores:4
+# CPU Logical cores :4
+# Host memory       :17178 MB
+# Swap memory       :18253 MB
+# Total Virtual     :35432 MB
+# Available Virtual :25320 MB
+#-----------------------------------------------------------
+source top.tcl -notrace

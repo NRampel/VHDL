@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../lab 1.srcs/sources_1/imports/src/is_prime.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../lab 1.srcs/sources_1/new/is_composite.vhd" \
+"../../../../lab 1.srcs/sim_1/imports/src/is_prime_tb.vhd" \
+"../../../../lab 1.srcs/sim_1/new/is_composite_tb.vhd" \
+
+# Do not sort compile order
+nosort

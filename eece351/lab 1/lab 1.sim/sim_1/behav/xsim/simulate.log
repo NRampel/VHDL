@@ -1,0 +1,32 @@
+Time resolution is 1 ps
+Warning: Circuit failed for abcd=0010
+Time: 30 ns  Iteration: 0  Process: /is_composite_tb/MAIN_TB  File: U:/src/lab 1/lab 1.srcs/sim_1/new/is_composite_tb.vhd
+Warning: Circuit failed for abcd=0011
+Time: 40 ns  Iteration: 0  Process: /is_composite_tb/MAIN_TB  File: U:/src/lab 1/lab 1.srcs/sim_1/new/is_composite_tb.vhd
+Warning: Circuit failed for abcd=0100
+Time: 50 ns  Iteration: 0  Process: /is_composite_tb/MAIN_TB  File: U:/src/lab 1/lab 1.srcs/sim_1/new/is_composite_tb.vhd
+Warning: Circuit failed for abcd=0101
+Time: 60 ns  Iteration: 0  Process: /is_composite_tb/MAIN_TB  File: U:/src/lab 1/lab 1.srcs/sim_1/new/is_composite_tb.vhd
+Warning: Circuit failed for abcd=0110
+Time: 70 ns  Iteration: 0  Process: /is_composite_tb/MAIN_TB  File: U:/src/lab 1/lab 1.srcs/sim_1/new/is_composite_tb.vhd
+Warning: Circuit failed for abcd=0111
+Time: 80 ns  Iteration: 0  Process: /is_composite_tb/MAIN_TB  File: U:/src/lab 1/lab 1.srcs/sim_1/new/is_composite_tb.vhd
+Warning: Circuit failed for abcd=1000
+Time: 90 ns  Iteration: 0  Process: /is_composite_tb/MAIN_TB  File: U:/src/lab 1/lab 1.srcs/sim_1/new/is_composite_tb.vhd
+Warning: Circuit failed for abcd=1001
+Time: 100 ns  Iteration: 0  Process: /is_composite_tb/MAIN_TB  File: U:/src/lab 1/lab 1.srcs/sim_1/new/is_composite_tb.vhd
+Warning: Circuit failed for abcd=1010
+Time: 110 ns  Iteration: 0  Process: /is_composite_tb/MAIN_TB  File: U:/src/lab 1/lab 1.srcs/sim_1/new/is_composite_tb.vhd
+Warning: Circuit failed for abcd=1011
+Time: 120 ns  Iteration: 0  Process: /is_composite_tb/MAIN_TB  File: U:/src/lab 1/lab 1.srcs/sim_1/new/is_composite_tb.vhd
+Warning: Circuit failed for abcd=1100
+Time: 130 ns  Iteration: 0  Process: /is_composite_tb/MAIN_TB  File: U:/src/lab 1/lab 1.srcs/sim_1/new/is_composite_tb.vhd
+Warning: Circuit failed for abcd=1101
+Time: 140 ns  Iteration: 0  Process: /is_composite_tb/MAIN_TB  File: U:/src/lab 1/lab 1.srcs/sim_1/new/is_composite_tb.vhd
+Warning: Circuit failed for abcd=1110
+Time: 150 ns  Iteration: 0  Process: /is_composite_tb/MAIN_TB  File: U:/src/lab 1/lab 1.srcs/sim_1/new/is_composite_tb.vhd
+Warning: Circuit failed for abcd=1111
+Time: 160 ns  Iteration: 0  Process: /is_composite_tb/MAIN_TB  File: U:/src/lab 1/lab 1.srcs/sim_1/new/is_composite_tb.vhd
+Failure: Simulation Terminated
+Time: 160 ns  Iteration: 0  Process: /is_composite_tb/MAIN_TB  File: U:/src/lab 1/lab 1.srcs/sim_1/new/is_composite_tb.vhd
+$finish called at time : 160 ns : File "U:/src/lab 1/lab 1.srcs/sim_1/new/is_composite_tb.vhd" Line 85

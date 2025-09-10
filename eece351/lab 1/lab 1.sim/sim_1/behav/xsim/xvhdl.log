@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "U:/src/lab 1/lab 1.srcs/sources_1/new/is_composite.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'is_composite'
+INFO: [VRFC 10-163] Analyzing VHDL file "U:/src/lab 1/lab 1.srcs/sim_1/new/is_composite_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'is_composite_tb'
