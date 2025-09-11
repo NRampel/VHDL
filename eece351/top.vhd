@@ -17,7 +17,6 @@ led(0) <=
     '1' when sw(1 downto 0)="00" 
     else '0'; 
 
-
 --led1 is on when exactly one of Sw2, sw1, sw0 is high
 with sw(2 downto 0 ) select 
     led(1) <=
@@ -64,16 +63,11 @@ led(6) <= '1' when sw=16x"FFA5";
 --     1     1     1   0
 
 with sw(3 downto 0) select led(7)<=
-    '1' when "000", 
-    '1' when "001", 
-    '1' when "010", 
+    '1' when "000",
     '1' when "011",  
     '1' when "100",  
     '1' when "101",  
-    '1' when "110", 
-    '1' when "111", 
     '0' when others; 
-    
 
 --led[9:8] should indicate the number of switches from sw[3:0] that are up
 with sw(3 downto 0) select led(9 downto 8) <=
@@ -85,12 +79,25 @@ with sw(3 downto 0) select led(9 downto 8) <=
      elsif when "1000", 
     "10" when others; 
     
-    
-    
-    
 --led[11:10] should indicate the bit position of the least significant 1 in sw[3:0] (use a conditional signal assignment)
-
+led(11 downto 14) <=
+    sw(15 downto 14) when sw(0)=sw(1)
+    else sw(1 downto 0) when sw(0)=sw(1)
+    else NOT (sw(15 downto 14)); 
 --led[13:12] should indicate the bit position of the least significant 1 in sw[3:0] (use a selected signal assignment)
+with sw(3 downto 0) select led(13 downto 12) <=
+    "11" when "1000", 
+    "10" when "1100", 
+    "10" when "0100", 
+    "01" when "0010", 
+    "01" when "0110", 
+    "01" when "1110", 
+    "01" when "1010", 
+    "00" when others; 
 --led[15:14] should be sw[15:14] when sw[0]==sw[1], sw[1:0] when sw[0]==sw[2], otherwise it should be the inverse of sw[15:14].
-
+led(15 downto 14) <= 
+    sw(15 downto 14) when sw(0)=sw(1)
+    else sw(1 downto 0) when sw(0)=sw(2)
+    else NOT(sw(15 downto 14)); 
+    
 end architecture miscellaneous;
