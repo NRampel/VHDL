@@ -14,7 +14,7 @@ architecture basic_testbench of is_prime_tb is
 		a,b,c,d: in std_logic;
 		f: out std_logic
     	);
-	end component is_prime;
+	end component is_prime; 
 
 begin
 -- The device to be tested
