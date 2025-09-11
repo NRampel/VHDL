@@ -3,8 +3,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity top is
     port ( 
-        sw : in STD_LOGIC_VECTOR (15 downto 0);
-        led : out STD_LOGIC_VECTOR (15 downto 0)
+        sw : in std_logic_vector (15 downto 0);
+        led : out std_logic_vector (15 downto 0)
         );
 end entity top;
 
