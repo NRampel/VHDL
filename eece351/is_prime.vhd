@@ -12,7 +12,6 @@ architecture equations of is_prime is
 
 begin
 	-- F=a'b'c+bc'd+b'cd+a'bd
-	f <= (not a AND not b AND c) OR (b and NOT c AND d) 
-    	OR (NOT b AND c AND d) OR NOT a AND b AND d;
+	f <= (not a and not b and c) or (c and d) or (not a and b and not c and d); 
 
 end architecture is_prime;
