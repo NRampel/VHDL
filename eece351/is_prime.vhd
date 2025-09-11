@@ -11,6 +11,6 @@ end entity is_prime
 architecture equations of is_prime is
 
 begin
-	f <= (not a and not b and c) or (c and d) or (not a and b and not c and d); 
+	f <= (not a and d) or (not b and not c and d) or (not a and not b and c) or (b and c and d);  
 
 end architecture is_prime;
