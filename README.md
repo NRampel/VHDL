@@ -1,3 +1,2 @@
-NOTE: THE REASON WHY GITHUB IS SAYING THIS REPO'S PRIMARY LANGUAGE IS TCL IS BECAUSE THE LINGUIST LIBRARY IS DETECTING EXTRA FILES FROM VIVADO, THE MAIN LANGUAGE IS VHDL
-NOTE2: THE VHDL FILES UNDER (eece351) WERE WORKED ON WITH ANOTHER PERSON(since it was for a class), I WILL CREDIT HIM ONCE I GET PERMISSION
+NOTE1: THE VHDL FILES UNDER (eece351) WERE WORKED ON WITH ANOTHER PERSON(since it was for a class), I will upload his linkedin once I have his permission
 To navigate to VHDL files, click on the folder, go to [foldername].srcs, then either sources_1 (will appear if there are multiple VHDL files) or utils_1(if there are multiple VHDL files, this will appear after sources_1 is clicked), then imports, and then synth_1, all files will be located there. 
