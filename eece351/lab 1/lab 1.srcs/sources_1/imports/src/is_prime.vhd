@@ -11,6 +11,7 @@ end entity is_prime;
 architecture equations of is_prime is
 
 begin
-	f <= (not a and b and d) OR (not a and not b and c) OR (b and c and d) OR (a and not b and not c and d); 
+	--implement: f <= bc'd+a'cd+a'b'c+b'cd
+	f <= (b and (not c) and d) or ((not a) and c and d) or ((not a) and (not b) and c) or ((not b) and c and d); 
 
 end architecture equations; 
