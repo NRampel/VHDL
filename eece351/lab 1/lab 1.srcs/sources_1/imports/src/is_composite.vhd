@@ -1,4 +1,4 @@
-
+--This VHDL code will return all the composite numbers from 0-15
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 
