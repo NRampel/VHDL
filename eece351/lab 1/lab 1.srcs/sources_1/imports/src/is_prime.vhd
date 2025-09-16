@@ -1,3 +1,4 @@
+--This basic VHDL code will report back all the primary numbers from 0-15
 library IEEE;
 use IEEE.std_logic_1164.all;
 
