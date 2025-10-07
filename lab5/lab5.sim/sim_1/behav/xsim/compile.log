@@ -1,5 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "U:/eece351/lab5/lab5.srcs/sources_1/new/detect_11010.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'detect_11010'
-ERROR: [VRFC 10-9608] semicolon after last interface declaration is only supported in VHDL 1076-2019 [U:/eece351/lab5/lab5.srcs/sources_1/new/detect_11010.vhd:8]
-ERROR: [VRFC 10-9458] unit 'detect_11010' is ignored due to previous errors [U:/eece351/lab5/lab5.srcs/sources_1/new/detect_11010.vhd:6]
-INFO: [VRFC 10-8704] VHDL file 'U:/eece351/lab5/lab5.srcs/sources_1/new/detect_11010.vhd' is ignored due to errors
