@@ -20,16 +20,16 @@ architecture Behavioral of detect_11010_tb is
         b"1_0", -- 2.  S1 -> S2
         b"0_0", -- 3.  S2 -> S3
         b"1_0", -- 4.  S3 -> S4
-        b"0_1", -- 5.  S4 -> S0 (SUCCESS! Output 'f' is '1')
-        b"0_0", -- 6.  S0 -> S0 (Stays in S0)
-        b"1_0", -- 7.  S0 -> S1 (Start another sequence)
-        b"0_0", -- 8.  S1 -> S0 (Sequence fails, returns to S0)
+        b"0_1", -- 5.  S4 -> S0 
+        b"0_0", -- 6.  S0 -> S0
+        b"1_0", -- 7.  S0 -> S1 
+        b"0_0", -- 8.  S1 -> S0 
         b"1_0", -- 9.  S0 -> S1
         b"1_0", -- 10. S1 -> S2
-        b"1_0", -- 11. S2 -> S2 (Test self-loop)
+        b"1_0", -- 11. S2 -> S2 
         b"0_0", -- 12. S2 -> S3
-        b"0_0", -- 13. S3 -> S0 (Sequence fails late)
-        b"0_0"  -- 14. S0 -> S0 (Confirm reset to S0)
+        b"0_0", -- 13. S3 -> S0 
+        b"0_0"  -- 14. S0 -> S0 
         );
         
         signal clk, a_sig, f_sig, reset_sig : std_logic; 
