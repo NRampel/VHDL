@@ -31,22 +31,18 @@ begin
     led(3) <= mealy_fsm_with_out_registered;
     led(4) <= mealy_fsm_with_in_registered;
     
-    --register the input
+  
     a_registered <= sw(0) when btnr_pulsed='1' and rising_edge(clk);
     mealy_fsm_with_out_registered <=  mealy_fsm_out when btnr_pulsed='1' and rising_edge(clk);
     
     U1: entity work.debouncer port map( clk=>clk, a=>btnr, q=>btnr_debounced); 
     U2: entity work.pulser port map( clk=>clk, a=>btnr_debounced, a_pulse=>btnr_pulsed);
-    --Mealy FSM on led(0)
     U3: entity work.detect_11010_new(mealy_fsm)             
         port map( clk=>clk, rst=>sw(1), a=>sw(0), en=>btnr_pulsed, f=>mealy_fsm_out);
-    --Mealy Shift Resgster on led(1)
     U4: entity work.detect_11010_new(mealy_shift_register)  
         port map( clk=>clk, rst=>sw(1), a=>sw(0), en=>btnr_pulsed, f=>mealy_shift_register_out);
-    --Moore FSM on led(2)
     U5: entity work.detect_11010_new(moore_fsm)             
         port map( clk=>clk, rst=>sw(1), a=>sw(0), en=>btnr_pulsed, f=>moore_fsm_out);
-    --Mealy FSM with registerd inputs led(3)
     U6: entity work.detect_11010_new(mealy_fsm)             
         port map( clk=>clk, rst=>sw(1), a=>a_registered, en=>btnr_pulsed, f=>mealy_fsm_with_in_registered);
 
