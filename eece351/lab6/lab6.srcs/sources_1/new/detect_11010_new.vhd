@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity detect_11010_mealy is
+entity detect_11010_new is
     port(
         clk : in std_logic; 
         rst : in std_logic; 
@@ -9,9 +9,9 @@ entity detect_11010_mealy is
         a : in std_logic; 
         f : out std_logic 
     );
-end detect_11010_mealy; 
+end detect_11010_new; 
 
-architecture mealy_fsm of detect_11010_mealy is
+architecture mealy_fsm of detect_11010_new is
     type state_type is (S0, S1, S2, S3, S4); 
     signal current_state, next_state : state_type;
 begin
@@ -66,7 +66,7 @@ begin
      end process;          
 end mealy_fsm;
 
-architecture mealy_shift_register of detect_11010_mealy is
+architecture mealy_shift_register of detect_11010_new is
     signal shift_reg: std_logic_vector(3 downto 0);
     constant pattern: std_logic_vector(4 downto 0):= "11010";
 begin
@@ -84,7 +84,7 @@ begin
 
 end architecture mealy_shift_register;
 
-architecture moore_fsm of detect_11010_mealy is 
+architecture moore_fsm of detect_11010_new is 
      type state_type is (S00, S01, S1, S2, S3, S4); 
      signal current_state, next_state : state_type;
 begin 
@@ -148,7 +148,7 @@ process(clk) begin
      end process;
 end architecture moore_fsm;
 
-architecture moore_shift_register of detect_11010_mealy is
+architecture moore_shift_register of detect_11010_new is
     signal shift_reg: std_logic_vector(4 downto 0);
     constant pattern: std_logic_vector(4 downto 0):= "11010";
 begin
