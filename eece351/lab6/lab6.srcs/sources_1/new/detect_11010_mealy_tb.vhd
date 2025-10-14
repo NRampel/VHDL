@@ -1,10 +1,10 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity detect_11010_mealy_tb is
-end detect_11010_mealy_tb;
+entity detect_11010_new_tb is
+end detect_11010_new_tb;
 
-architecture mealy_tb of detect_11010_mealy_tb is
+architecture mealy_tb of detect_11010_new_tb is
     type test_vector_t is array (natural range<>) of std_logic_vector(1 downto 0);
     constant test_vector : test_vector_t := (
         b"1_0", -- 1.  S0 -> S1
@@ -25,7 +25,7 @@ architecture mealy_tb of detect_11010_mealy_tb is
         
         signal clk, a_sig, f_sig, reset_sig : std_logic; 
 begin
-UUF: entity work.detect_11010_mealy(mealy_shift_register) port map (clk=>clk, rst=>reset_sig, en=>'1', a=>a_sig, f=>f_sig); 
+UUF: entity work.detect_11010_new(mealy_shift_register) port map (clk=>clk, rst=>reset_sig, en=>'1', a=>a_sig, f=>f_sig); 
 RST_CLK: process begin
     reset_sig <= '1';
     loop
@@ -54,7 +54,7 @@ end mealy_tb;
 
 
 
-architecture moore_tb of detect_11010_mealy_tb is
+architecture moore_tb of detect_11010_new_tb is
     type test_vector_t is array (natural range<>) of std_logic_vector(1 downto 0);
     constant test_vector : test_vector_t := (
      b"0_0", 
@@ -83,7 +83,7 @@ architecture moore_tb of detect_11010_mealy_tb is
         
         signal clk, a_sig, f_sig, reset_sig : std_logic; 
 begin 
-UUF: entity work.detect_11010_mealy(moore_shift_register) port map(clk=>clk, rst=>reset_sig, en=>'1', a=>a_sig, f=>f_sig); 
+UUF: entity work.detect_11010_new(moore_shift_register) port map(clk=>clk, rst=>reset_sig, en=>'1', a=>a_sig, f=>f_sig); 
 RST_CLK: process begin
     reset_sig <= '1';
     loop
