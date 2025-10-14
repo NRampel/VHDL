@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../../lab5_v2/lab5_v2.srcs/sources_1/new/debouncer.vhd" \
+"../../../../lab6.srcs/sources_1/new/detect_11010_mealy.vhd" \
+"../../../../../lab5_v2/lab5_v2.srcs/sources_1/new/pulser.vhd" \
+"../../../../lab6.srcs/sources_1/new/top.vhd" \
+
+# Do not sort compile order
+nosort

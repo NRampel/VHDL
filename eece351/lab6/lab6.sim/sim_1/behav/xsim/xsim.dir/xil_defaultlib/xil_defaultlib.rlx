@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+U:/eece351/lab5_v2/lab5_v2.srcs/sources_1/new/debouncer.vhd,1759795766,vhdl2008,U:/eece351/lab6/lab6.srcs/sources_1/new/top.vhd,,,debouncer,,,,,,,,
+U:/eece351/lab5_v2/lab5_v2.srcs/sources_1/new/pulser.vhd,1759797822,vhdl2008,U:/eece351/lab6/lab6.srcs/sources_1/new/top.vhd,,,pulser,,,,,,,,
+U:/eece351/lab6/lab6.srcs/sources_1/new/detect_11010_mealy.vhd,1760388229,vhdl2008,U:/eece351/lab6/lab6.srcs/sources_1/new/top.vhd,,,detect_11010_mealy,,,,,,,,
+U:/eece351/lab6/lab6.srcs/sources_1/new/detect_11010_mealy_tb.vhd,1760384477,vhdl2008,,,,detect_11010_mealy_tb,,,,,,,,
+U:/eece351/lab6/lab6.srcs/sources_1/new/top.vhd,1760388967,vhdl2008,,,,top,,,,,,,,

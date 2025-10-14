@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="245.792 ns"></ZoomEndTime>
+      <Cursor1Time time="2.583 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="181"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/btnR" type="logic">
+      <obj_property name="ElementShortName">btnR</obj_property>
+      <obj_property name="ObjectShortName">btnR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/sw" type="array">
+      <obj_property name="ElementShortName">sw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/led" type="array">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/btnr_debounced" type="logic">
+      <obj_property name="ElementShortName">btnr_debounced</obj_property>
+      <obj_property name="ObjectShortName">btnr_debounced</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/btnr_pulsed" type="logic">
+      <obj_property name="ElementShortName">btnr_pulsed</obj_property>
+      <obj_property name="ObjectShortName">btnr_pulsed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/mealy_fsm_out" type="logic">
+      <obj_property name="ElementShortName">mealy_fsm_out</obj_property>
+      <obj_property name="ObjectShortName">mealy_fsm_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/mealy_shift_register_out" type="logic">
+      <obj_property name="ElementShortName">mealy_shift_register_out</obj_property>
+      <obj_property name="ObjectShortName">mealy_shift_register_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/moore_fsm_out" type="logic">
+      <obj_property name="ElementShortName">moore_fsm_out</obj_property>
+      <obj_property name="ObjectShortName">moore_fsm_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/mealy_fsm_with_out_registered" type="logic">
+      <obj_property name="ElementShortName">mealy_fsm_with_out_registered</obj_property>
+      <obj_property name="ObjectShortName">mealy_fsm_with_out_registered</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/mealy_fsm_with_in_registered" type="logic">
+      <obj_property name="ElementShortName">mealy_fsm_with_in_registered</obj_property>
+      <obj_property name="ObjectShortName">mealy_fsm_with_in_registered</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/a_registered" type="logic">
+      <obj_property name="ElementShortName">a_registered</obj_property>
+      <obj_property name="ObjectShortName">a_registered</obj_property>
+   </wvobject>
+</wave_config>
