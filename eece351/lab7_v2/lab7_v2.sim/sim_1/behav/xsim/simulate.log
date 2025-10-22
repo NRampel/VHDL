@@ -1,0 +1,20 @@
+Time resolution is 1 ps
+Note: Starting Reset
+Time: 0 ps  Iteration: 0  Process: /sqrt8i_tb/MAIN_TB  File: U:/eece351/lab7/lab7.srcs/sources_1/new/sqrt8i_tb.vhd
+Note: Reset finished. Starting Test Sequence (A = 0, 1, 100, 101, 225, 255).
+Time: 30 ns  Iteration: 1  Process: /sqrt8i_tb/MAIN_TB  File: U:/eece351/lab7/lab7.srcs/sources_1/new/sqrt8i_tb.vhd
+Note: Test A=0 PASSED. Sqrt=0
+Time: 65 ns  Iteration: 1  Process: /sqrt8i_tb/MAIN_TB  File: U:/eece351/lab7/lab7.srcs/sources_1/new/sqrt8i_tb.vhd
+Note: Test A=1 PASSED. Sqrt=1
+Time: 115 ns  Iteration: 1  Process: /sqrt8i_tb/MAIN_TB  File: U:/eece351/lab7/lab7.srcs/sources_1/new/sqrt8i_tb.vhd
+Note: Test A=100 PASSED. Sqrt=10
+Time: 255 ns  Iteration: 1  Process: /sqrt8i_tb/MAIN_TB  File: U:/eece351/lab7/lab7.srcs/sources_1/new/sqrt8i_tb.vhd
+Note: Test A=101 PASSED. Sqrt=10
+Time: 405 ns  Iteration: 1  Process: /sqrt8i_tb/MAIN_TB  File: U:/eece351/lab7/lab7.srcs/sources_1/new/sqrt8i_tb.vhd
+Note: Test A=225 PASSED. Sqrt=15
+Time: 595 ns  Iteration: 1  Process: /sqrt8i_tb/MAIN_TB  File: U:/eece351/lab7/lab7.srcs/sources_1/new/sqrt8i_tb.vhd
+Note: Test A=255 PASSED. Sqrt=15
+Time: 795 ns  Iteration: 1  Process: /sqrt8i_tb/MAIN_TB  File: U:/eece351/lab7/lab7.srcs/sources_1/new/sqrt8i_tb.vhd
+Failure: FSM Passed the Testbench
+Time: 855 ns  Iteration: 0  Process: /sqrt8i_tb/MAIN_TB  File: U:/eece351/lab7/lab7.srcs/sources_1/new/sqrt8i_tb.vhd
+$finish called at time : 855 ns : File "U:/eece351/lab7/lab7.srcs/sources_1/new/sqrt8i_tb.vhd" Line 133

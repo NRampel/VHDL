@@ -1,0 +1,4 @@
+Running: xsim.dir/sqrt8i_tb_behav/xsimk.exe -simmode gui -wdb sqrt8i_tb_behav.wdb -simrunnum 0 -socket 55990
+Design successfully loaded
+Design Loading Memory Usage: 10720 KB (Peak: 10720 KB)
+Design Loading CPU Usage: 62 ms
