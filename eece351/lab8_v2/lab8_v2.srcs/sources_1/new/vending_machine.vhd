@@ -33,6 +33,7 @@ architecture Behavioral of vending_machine is
 begin
 ------------------------------------------------------------------------------------------------------------------------------ 
 
+    --Note, I acknowledge that this all can be done in one process, but my professor wanted me to break it up into three smaller processes to keeo modularity
     process(clk, rst) begin
         if rst = '1' then
             state <= S0;
