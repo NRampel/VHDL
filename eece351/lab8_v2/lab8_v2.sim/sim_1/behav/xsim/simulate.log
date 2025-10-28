@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Failure: FSM Passed the Testbench
+Time: 710 ns  Iteration: 1  Process: /vending_machine_tb/MAIN_TB  File: U:/eece351/lab8_v2/lab8_v2.srcs/sources_1/new/vending_machine_tb.vhd
+$finish called at time : 710 ns : File "U:/eece351/lab8_v2/lab8_v2.srcs/sources_1/new/vending_machine_tb.vhd" Line 165
