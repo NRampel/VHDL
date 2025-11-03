@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon Nov  3 17:07:07 2025
+# Process ID         : 26492
+# Current directory  : U:/eece351/lab_9/lab_9.runs/impl_1
+# Command line       : vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file           : U:/eece351/lab_9/lab_9.runs/impl_1/top.vdi
+# Journal file       : U:/eece351/lab_9/lab_9.runs/impl_1\vivado.jou
+# Running On         : LAPTOP-7VM7RQ1O
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 9 285H
+# CPU Frequency      : 3686 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 16
+# Host memory        : 33782 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 38882 MB
+# Available Virtual  : 22425 MB
+#-----------------------------------------------------------
+source top.tcl -notrace

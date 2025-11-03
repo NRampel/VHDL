@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../../lab_9.srcs/sources_1/new/synchronizer.vhd" \
+"../../../../../lab_9.srcs/sources_1/new/synchronizer_tb.vhd" \
+
+# Do not sort compile order
+nosort

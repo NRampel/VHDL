@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Failure: Testbench simulation finished.
+Time: 180 ns  Iteration: 0  Process: /synchronizer_tb/stimulus_process  File: U:/eece351/lab_9.srcs/sources_1/new/synchronizer_tb.vhd
+$finish called at time : 180 ns : File "U:/eece351/lab_9.srcs/sources_1/new/synchronizer_tb.vhd" Line 86
