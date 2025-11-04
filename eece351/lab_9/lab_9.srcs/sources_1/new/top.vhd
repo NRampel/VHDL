@@ -92,7 +92,7 @@ begin
         Pulser_vend : pulser port map(a=>vend_deb(index), clk=>clk, a_pulse=>vend_pulsed(index)); 
     end generate processing_chain; 
     
-    --could've used a shift register and bit concatenation, it would be a more behavioral alternative
+    --could've used a shift register and bit concatenation instead of a for-generate loop, it would be a more behavioral alternative
     
     
     Vending_Actual : vending_machine port map(
