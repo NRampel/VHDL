@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../lab_11.srcs/sources_1/new/top.vhd" \
+"../../../../lab_11.srcs/sources_1/imports/Downloads/serial_rx_tb.vhd" \
+
+# Do not sort compile order
+nosort
