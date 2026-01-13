@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Jan 13 11:42:36 2026
+# Process ID         : 22996
+# Current directory  : C:/Users/DasNiko/Desktop/new_components/new_components.runs/impl_1
+# Command line       : vivado.exe -log pulse_stretcher.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source pulse_stretcher.tcl -notrace
+# Log file           : C:/Users/DasNiko/Desktop/new_components/new_components.runs/impl_1/pulse_stretcher.vdi
+# Journal file       : C:/Users/DasNiko/Desktop/new_components/new_components.runs/impl_1\vivado.jou
+# Running On         : DaNiko
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 9 5900X 12-Core Processor            
+# CPU Frequency      : 4200 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 24
+# Host memory        : 34268 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36416 MB
+# Available Virtual  : 20123 MB
+#-----------------------------------------------------------
+source pulse_stretcher.tcl -notrace
