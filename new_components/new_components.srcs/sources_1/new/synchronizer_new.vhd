@@ -16,7 +16,7 @@ architecture behavioral of synchronizer_new is
     attribute ASYNC_REG : string;
     attribute ASYNC_REG of shift_reg : signal is "TRUE";
 begin 
-    process(clk, rst) begin 
+    process(clk) begin 
         if rst = '1' then 
             shift_reg <= (others=>'0'); 
         elsif rising_edge(clk) then 
