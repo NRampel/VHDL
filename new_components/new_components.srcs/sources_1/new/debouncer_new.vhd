@@ -18,21 +18,23 @@ architecture Behavioral of debouncer_new is
     signal ctr : integer range timer downto 0 := 0; 
     signal q_reg : std_logic := '0'; 
 begin
-    process(clk, rst) begin 
-        if rst='1' then 
-            q_reg <= '0';
-            ctr <= 0;
-            a_reg <= '0';
-        elsif rising_edge(clk) then 
-            a_reg <= a_in; 
-            if a_reg /= a_in then 
-                ctr <= timer; 
-            elsif ctr > 0 then 
-                ctr <= ctr - 1; 
+    process(clk) begin 
+        if rising_edge(clk) then 
+            if rst='1' then 
+                q_reg <= '0';
+                ctr <= 0;
+                a_reg <= '0';
             else 
-                q_reg <= a_reg; 
+                a_reg <= a_in; 
+                if a_reg /= a_in then 
+                    ctr <= timer; 
+                elsif ctr > 0 then 
+                    ctr <= ctr - 1; 
+                else 
+                    q_reg <= a_reg; 
+                end if; 
             end if; 
-         end if; 
+       end if; 
      end process; 
      q <= q_reg; 
 end Behavioral;
