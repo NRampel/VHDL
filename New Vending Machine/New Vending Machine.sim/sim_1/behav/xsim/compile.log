@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/DasNiko/Documents/GitHub/VHDL/New Vending Machine/New Vending Machine.srcs/sources_1/new/Vend_SSEG_Driver.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Vend_SSEG_Driver'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/DasNiko/Documents/GitHub/VHDL/New Vending Machine/New Vending Machine.srcs/sim_1/new/Vend_SSEG_Driver_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Vend_SSEG_Driver_tb'

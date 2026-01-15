@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date             : Tue Jan 13 11:43:22 2026
+| Date             : Tue Jan 13 15:25:55 2026
 | Host             : DaNiko running 64-bit major release  (build 9200)
 | Command          : report_power -file pulse_stretcher_power_routed.rpt -pb pulse_stretcher_power_summary_routed.pb -rpx pulse_stretcher_power_routed.rpx
 | Design           : pulse_stretcher
@@ -53,10 +53,10 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |        6 |       --- |             --- |
+| Slice Logic    |    <0.001 |        8 |       --- |             --- |
 |   LUT as Logic |    <0.001 |        1 |     20800 |           <0.01 |
-|   Register     |    <0.001 |        4 |     41600 |           <0.01 |
-|   Others       |     0.000 |        1 |       --- |             --- |
+|   Register     |    <0.001 |        5 |     41600 |            0.01 |
+|   Others       |     0.000 |        2 |       --- |             --- |
 | Signals        |    <0.001 |        7 |       --- |             --- |
 | I/O            |    <0.001 |        4 |       106 |            3.77 |
 | Static Power   |     0.070 |          |           |                 |
@@ -95,7 +95,7 @@ Table of Contents
 | Design implementation state | High       | Design is routed                                      |                                                                                                            |
 | Clock nodes activity        | High       | User specified more than 95% of clocks                |                                                                                                            |
 | I/O nodes activity          | Medium     | More than 5% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view   |
-| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes        | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views |
+| Internal nodes activity     | Medium     | User specified more than 25% of internal nodes        | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views |
 | Device models               | High       | Device models are Production                          |                                                                                                            |
 |                             |            |                                                       |                                                                                                            |
 | Overall confidence level    | Medium     |                                                       |                                                                                                            |

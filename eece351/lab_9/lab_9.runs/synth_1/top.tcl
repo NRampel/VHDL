@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "U:/eece351/lab_9/lab_9.runs/synth_1/top.tcl"
+  variable script "C:/Users/DasNiko/Documents/GitHub/VHDL/eece351/lab_9/lab_9.runs/synth_1/top.tcl"
   variable category "vivado_synth"
 }
 
@@ -56,32 +56,28 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 4
 set_param general.usePosixSpawnForFork 1
-set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir U:/eece351/lab_9/lab_9.cache/wt [current_project]
-set_property parent.project_path U:/eece351/lab_9/lab_9.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/DasNiko/Documents/GitHub/VHDL/eece351/lab_9/lab_9.cache/wt [current_project]
+set_property parent.project_path C:/Users/DasNiko/Documents/GitHub/VHDL/eece351/lab_9/lab_9.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-set_property ip_output_repo u:/eece351/lab_9/lab_9.cache/ip [current_project]
+set_property ip_output_repo c:/Users/DasNiko/Documents/GitHub/VHDL/eece351/lab_9/lab_9.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_vhdl -library xil_defaultlib {
-  U:/eece351/lab_9/lab_9.srcs/sources_1/imports/new/debouncer.vhd
-  U:/eece351/lab_9.srcs/sources_1/new/pulser.vhd
-}
+read_vhdl -library xil_defaultlib C:/Users/DasNiko/Documents/GitHub/VHDL/eece351/lab_9/lab_9.srcs/sources_1/new/vending_machine.vhd
 read_vhdl -vhdl2008 -library xil_defaultlib {
-  U:/eece351/lab_9/lab_9.srcs/sources_1/new/SSEG_Driver.vhd
-  U:/eece351/lab_9.srcs/sources_1/new/synchronizer.vhd
-  U:/eece351/lab_9/lab_9.srcs/sources_1/imports/new/vending_machine.vhd
-  U:/eece351/lab_9.srcs/sources_1/new/top.vhd
+  C:/Users/DasNiko/Documents/GitHub/VHDL/eece351/lab_9/lab_9.srcs/sources_1/new/SSEG_Driver.vhd
+  C:/Users/DasNiko/Documents/GitHub/VHDL/eece351/lab_9/lab_9.srcs/sources_1/new/debouncer.vhd
+  C:/Users/DasNiko/Documents/GitHub/VHDL/eece351/lab_9/lab_9.srcs/sources_1/new/pulser.vhd
+  C:/Users/DasNiko/Documents/GitHub/VHDL/eece351/lab_9/lab_9.srcs/sources_1/new/synchronizer.vhd
+  C:/Users/DasNiko/Documents/GitHub/VHDL/eece351/lab_9/lab_9.srcs/sources_1/new/top.vhd
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -92,12 +88,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc U:/eece351/lab_9/lab_9.srcs/constrs_1/imports/eece351/Basys3_Master.xdc
-set_property used_in_implementation false [get_files U:/eece351/lab_9/lab_9.srcs/constrs_1/imports/eece351/Basys3_Master.xdc]
+read_xdc C:/Users/DasNiko/Documents/GitHub/VHDL/eece351/lab_9/lab_9.srcs/constrs_1/imports/eece351/Basys3_Master.xdc
+set_property used_in_implementation false [get_files C:/Users/DasNiko/Documents/GitHub/VHDL/eece351/lab_9/lab_9.srcs/constrs_1/imports/eece351/Basys3_Master.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental U:/eece351/lab_9/lab_9.srcs/utils_1/imports/synth_1/top.dcp
+read_checkpoint -auto_incremental -incremental C:/Users/DasNiko/Documents/GitHub/VHDL/eece351/lab_9/lab_9.srcs/utils_1/imports/synth_1/top.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

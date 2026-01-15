@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Failure: Simulation Completed
+Time: 620 ns  Iteration: 0  Process: /Vend_SSEG_Driver_tb/stim_proc  File: C:/Users/DasNiko/Documents/GitHub/VHDL/New Vending Machine/New Vending Machine.srcs/sim_1/new/Vend_SSEG_Driver_tb.vhd
+$finish called at time : 620 ns : File "C:/Users/DasNiko/Documents/GitHub/VHDL/New Vending Machine/New Vending Machine.srcs/sim_1/new/Vend_SSEG_Driver_tb.vhd" Line 76

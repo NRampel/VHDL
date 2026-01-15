@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date         : Tue Jan 13 11:13:15 2026
+| Date         : Tue Jan 13 15:25:00 2026
 | Host         : DaNiko running 64-bit major release  (build 9200)
 | Command      : report_utilization -file pulse_stretcher_utilization_synth.rpt -pb pulse_stretcher_utilization_synth.pb
 | Design       : pulse_stretcher
@@ -34,12 +34,12 @@ Table of Contents
 | Slice LUTs*             |    1 |     0 |          0 |     20800 | <0.01 |
 |   LUT as Logic          |    1 |     0 |          0 |     20800 | <0.01 |
 |   LUT as Memory         |    0 |     0 |          0 |      9600 |  0.00 |
-| Slice Registers         |    4 |     0 |          0 |     41600 | <0.01 |
-|   Register as Flip Flop |    4 |     0 |          0 |     41600 | <0.01 |
+| Slice Registers         |    5 |     0 |          0 |     41600 |  0.01 |
+|   Register as Flip Flop |    5 |     0 |          0 |     41600 |  0.01 |
 |   Register as Latch     |    0 |     0 |          0 |     41600 |  0.00 |
 | F7 Muxes                |    0 |     0 |          0 |     16300 |  0.00 |
 | F8 Muxes                |    0 |     0 |          0 |      8150 |  0.00 |
-| Unique Control Sets     |    1 |       |          0 |      8150 |  0.01 |
+| Unique Control Sets     |    2 |       |          0 |      8150 |  0.02 |
 +-------------------------+------+-------+------------+-----------+-------+
 * Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis, if not already completed, for a more realistic count.
 Warning! LUT value is adjusted to account for LUT combining.
@@ -62,7 +62,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 | 0     |          Yes |           - |          Set |
 | 4     |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
-| 0     |          Yes |       Reset |            - |
+| 1     |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -158,6 +158,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 | IBUF     |    3 |                  IO |
 | OBUF     |    1 |                  IO |
 | LUT5     |    1 |                 LUT |
+| FDRE     |    1 |        Flop & Latch |
 | BUFG     |    1 |               Clock |
 +----------+------+---------------------+
 

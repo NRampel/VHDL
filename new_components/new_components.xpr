@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="71" Path="C:/Users/DasNiko/Desktop/new_components/new_components.xpr">
+<Project Product="Vivado" Version="7" Minor="71" Path="C:/Users/DasNiko/Documents/GitHub/VHDL/new_components/new_components.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="22b87dcd30ec402da0f9eb405b89d936"/>
@@ -94,14 +94,12 @@
       <File Path="$PSRCDIR/sources_1/new/component_instantiator.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UserDisabled" Val="1"/>
-          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/new/pulser_new.vhd">
         <FileInfo SFType="VHDL2008">
-          <Attr Name="UserDisabled" Val="1"/>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -109,7 +107,6 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/synchronizer_new.vhd">
         <FileInfo SFType="VHDL2008">
-          <Attr Name="UserDisabled" Val="1"/>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -117,7 +114,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/debouncer_new.vhd">
         <FileInfo SFType="VHDL2008">
-          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -136,7 +133,7 @@
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
       <Filter Type="Constrs"/>
-      <File Path="$PPRDIR/../Computer Engineering Undergrad/Fall 2025/EECE 351 - Digital Systems Design/Basys3_Master.xdc">
+      <File Path="$PPRDIR/../../../../Desktop/Computer Engineering Undergrad/Fall 2025/EECE 351 - Digital Systems Design/Basys3_Master.xdc">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

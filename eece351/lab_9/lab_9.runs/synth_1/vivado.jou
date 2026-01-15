@@ -1,24 +1,24 @@
 #-----------------------------------------------------------
-# Vivado v2025.1 (64-bit)
-# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
-# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
-# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Mon Nov  3 17:06:00 2025
-# Process ID         : 5612
-# Current directory  : U:/eece351/lab_9/lab_9.runs/synth_1
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Jan 14 17:22:07 2026
+# Process ID         : 19048
+# Current directory  : C:/Users/DasNiko/Documents/GitHub/VHDL/eece351/lab_9/lab_9.runs/synth_1
 # Command line       : vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
-# Log file           : U:/eece351/lab_9/lab_9.runs/synth_1/top.vds
-# Journal file       : U:/eece351/lab_9/lab_9.runs/synth_1\vivado.jou
-# Running On         : LAPTOP-7VM7RQ1O
+# Log file           : C:/Users/DasNiko/Documents/GitHub/VHDL/eece351/lab_9/lab_9.runs/synth_1/top.vds
+# Journal file       : C:/Users/DasNiko/Documents/GitHub/VHDL/eece351/lab_9/lab_9.runs/synth_1\vivado.jou
+# Running On         : DaNiko
 # Platform           : Windows Server 2016 or Windows 10
 # Operating System   : 26200
-# Processor Detail   : Intel(R) Core(TM) Ultra 9 285H
-# CPU Frequency      : 3686 MHz
-# CPU Physical cores : 16
-# CPU Logical cores  : 16
-# Host memory        : 33782 MB
-# Swap memory        : 5100 MB
-# Total Virtual      : 38882 MB
-# Available Virtual  : 22353 MB
+# Processor Detail   : AMD Ryzen 9 5900X 12-Core Processor            
+# CPU Frequency      : 4200 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 24
+# Host memory        : 34268 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36416 MB
+# Available Virtual  : 26170 MB
 #-----------------------------------------------------------
 source top.tcl -notrace

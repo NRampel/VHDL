@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Vend_SSEG_Driver_tb_behav" "xil_defaultlib.Vend_SSEG_Driver_tb" -log "elaborate.log" 

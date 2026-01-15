@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1768322549">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1768335857">
   <File Type="PA-TCL" Name="pulse_stretcher.tcl"/>
   <File Type="REPORTS-TCL" Name="pulse_stretcher_reports.tcl"/>
   <File Type="INIT-TIMING" Name="pulse_stretcher_timing_summary_init.rpt"/>
@@ -56,12 +56,12 @@
   <File Type="ROUTE-RQS-PB" Name="pulse_stretcher_rqs_routed.pb"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="pulse_stretcher_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="pulse_stretcher_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="component_instantiator_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="component_instantiator_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="component_instantiator_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="component_instantiator_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="component_instantiator_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="component_instantiator_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="pulse_stretcher_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="pulse_stretcher_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="pulse_stretcher_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="pulse_stretcher_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="pulse_stretcher_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="pulse_stretcher_bus_skew_postroute_physopted.rpx"/>
   <File Type="NOC_TRAFFIC_SPEC_FILE" Name="pulse_stretcher.nts"/>
   <File Type="NOC_SOLUTION_FILE" Name="pulse_stretcher.ncr"/>
   <File Type="BG-BIT" Name="pulse_stretcher.bit"/>
@@ -124,21 +124,21 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/pulser_new.vhd">
       <FileInfo SFType="VHDL2008">
-        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/synchronizer_new.vhd">
       <FileInfo SFType="VHDL2008">
-        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/debouncer_new.vhd">
       <FileInfo SFType="VHDL2008">
-        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -157,7 +157,7 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PPRDIR/../Computer Engineering Undergrad/Fall 2025/EECE 351 - Digital Systems Design/Basys3_Master.xdc">
+    <File Path="$PPRDIR/../../../../Desktop/Computer Engineering Undergrad/Fall 2025/EECE 351 - Digital Systems Design/Basys3_Master.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
