@@ -1,40 +1,5 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="DasNiko" Host="DANIKO" Pid="29860" HostCore="24" HostMemory="034268626944">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="DasNiko" Host="DANIKO" Pid="25916" HostCore="24" HostMemory="034268626944">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="DasNiko" Host="DANIKO" Pid="21628" HostCore="24" HostMemory="034268626944">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="DasNiko" Host="DANIKO" Pid="30232" HostCore="24" HostMemory="034268626944">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="DasNiko" Host="DANIKO" Pid="10360" HostCore="24" HostMemory="034268626944">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="DasNiko" Host="DANIKO" Pid="16948" HostCore="24" HostMemory="034268626944">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="DasNiko" Host="DANIKO" Pid="9948" HostCore="24" HostMemory="034268626944">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="DasNiko" Host="DANIKO" Pid="17392" HostCore="24" HostMemory="034268626944">
+    <Process Command="vivado.bat" Owner="DasNiko" Host="DANIKO" Pid="22204" HostCore="24" HostMemory="034268626944">
     </Process>
 </ProcessHandle>
