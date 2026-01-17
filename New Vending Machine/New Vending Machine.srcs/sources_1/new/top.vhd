@@ -111,7 +111,7 @@ begin
         quarter => qrtr_pulsed, 
         dollar => dlr_pulsed, 
         display => sseg_disp,
-        vend_out=>ack_clear
+        vend_out => ack_clear
     );
     
     Vend_SSEG_Driver_inst : Vend_SSEG_Driver port map (
