@@ -1,3 +1,7 @@
+![VHDL](https://img.shields.io/badge/VHDL-%2300629B.svg?style=for-the-badge&logo=ieee&logoColor=white)
+![FPGA](https://img.shields.io/badge/FPGA-%2300599C.svg?style=for-the-badge&logo=ilogo&logoColor=white)
+![Xilinx](https://img.shields.io/badge/Xilinx-%23D41313.svg?style=for-the-badge&logo=amd&logoColor=white)
+
 NOTE: 
 
 -- I  WORKED WITH ANOTHER PERSON TO CREATE ALL VHDL FILES UNDER THE FOLDER EECE351(since it was for a class), feel free to check out his linkedin as well: https://www.linkedin.com/in/jason-pritchet/ 
